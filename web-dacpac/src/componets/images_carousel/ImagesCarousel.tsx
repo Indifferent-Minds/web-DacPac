@@ -15,7 +15,7 @@ export default function ImagesCarousel({images}: ImagesCarouselProp) {
                 {
                     images.map((img, idx) => 
                         <div className={'carousel-item' + (idx === 0 ? ' active' : '')} key={idx}>
-                            <img src={base + img} className="d-block w-100" alt="Foto del campa" />
+                            <img src={base + img} className="d-block w-100" alt="Foto del campa" draggable="false" />
                         </div>
                     )
                 }
