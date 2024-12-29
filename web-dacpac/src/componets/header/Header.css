@@ -1,5 +1,5 @@
 header {
-    background-color: #034E7A;
+    background-color: #034e7af8;
 }
 
 h1, h2 {
@@ -8,6 +8,7 @@ h1, h2 {
 
 header h1 {
     font-weight: 700;
+    font-family: 'Rubik Vinyl', Arial, sans-serif
 }
 
 @media screen and (min-width: 576px) {
