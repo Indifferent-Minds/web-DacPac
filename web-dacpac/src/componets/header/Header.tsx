@@ -1,15 +1,36 @@
-import './Header.css'
+import './Header.css';
+const base = import.meta.env.VITE_BASE;     
 
-const base = import.meta.env.VITE_BASE;
+const NavBar = () => {
+  return (
+    <div className="barranavegacion">
+      <div className="barranavegacion-social-icons">
+        <a href="https://instagram.com">
+          <img src={base+'instagram.svg'} alt="Instagram" draggable="false" />
+        </a>
+        <a href="https://x.com">
+        <img src={base+'x.svg'} alt="x" draggable="false" />
+        </a>
+        <a href="https://threads.net">
+          <img src={base+'threads.svg'} alt="Threads" draggable="false" />
+        </a>
+      </div>
 
-export default function Header() {
-    return <header className='d-flex drop-shadow-vertical'>
-        <div className="logo-container d-none d-sm-block">
-            <img src={base+'logo.svg'} alt="Logo DacPac" id="logo-dacpac" className='' draggable="false" />
+      <div className="barranavegacion-logo">
+        <div className="logo-container">
+          <img src={base+'logo.svg'} />
+          <p>De Alta Capacidad Para Alta Capacidad</p>
         </div>
-        <div className='w-100 pt-2 headers-container'>
-            <h1>CAMPAMENTO DAC-PAC</h1>
-            <h2>De Alta Capacidad Para Alta Capacidad</h2>
-        </div>
-    </header>
-}
+      </div>
+
+      <div className="barranavegacion-links">
+        <a href="#" className='enlace'>Inicio</a>
+        <a href="#">Actividades</a> 
+        <a href="#">AACC</a>
+        <a href="#">Contacto</a>
+      </div>
+    </div>
+  );
+};
+
+export default NavBar;
