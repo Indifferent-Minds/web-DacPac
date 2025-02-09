@@ -1,3 +1,4 @@
+import Banner from '../banner/Banner';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import ImagesCarousel from '../images_carousel/ImagesCarousel'
@@ -30,8 +31,9 @@ const faqs = [
 ];
 
 export default function Main() {
-    return <main className='py-4'>
+    return <main className='pb-4'>
       <div className="d-flex flex-column justify-content-center align-items-center">
+        <Banner />
         <Faq faqs={faqs}/>
         <Form />
         <ImagesCarousel images={images} />

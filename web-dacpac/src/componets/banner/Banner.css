@@ -1,0 +1,10 @@
+.banner {
+    width: 100%;
+    background-image: url('/image_05.jpg');
+    background-size: cover;
+    background-position-y: 33%;
+}
+
+.banner h1 {
+    font-size: 4rem;
+}
