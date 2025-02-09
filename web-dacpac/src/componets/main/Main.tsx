@@ -1,11 +1,17 @@
 import Banner from '../banner/Banner';
+import BigImage from '../big_image/BigImage';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import './Main.css'
 
-const images = [
+const past_camps_images = [
   'image_01.jpg',
+  'image_02.jpg',
+  'image_03.jpg',
+];
+
+const facilities_images = [
   'image_02.jpg',
   'image_03.jpg',
   'image_04.jpg',
@@ -36,7 +42,9 @@ export default function Main() {
         <Banner />
         <Faq faqs={faqs}/>
         <Form />
-        <ImagesCarousel images={images} />
+        <ImagesCarousel title="👀 Campamentos pasados" images={past_camps_images} />
+        <BigImage title="👷‍♂️ El equipo" image="image_04.jpg" />
+        <ImagesCarousel title="🏕️ Instalaciones" images={facilities_images} />
       </div>
     </main>
 }
