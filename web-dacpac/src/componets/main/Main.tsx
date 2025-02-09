@@ -31,12 +31,10 @@ const faqs = [
 
 export default function Main() {
     return <main className='py-4'>
-      <div className="d-flex flex-column flex-xxl-row justify-content-evenly align-items-center">
+      <div className="d-flex flex-column justify-content-center align-items-center">
+        <Faq faqs={faqs}/>
         <Form />
         <ImagesCarousel images={images} />
-      </div>
-      <div className="d-flex justify-content-center">
-        <Faq faqs={faqs}/>
       </div>
     </main>
 }
