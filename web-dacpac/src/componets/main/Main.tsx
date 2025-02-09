@@ -44,7 +44,7 @@ export default function Main() {
         <Faq faqs={faqs}/>
         <Form />
         <GoogleMaps />
-        <ImagesCarousel title="👀 Campamentos pasados" images={past_camps_images} />
+        <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
         <BigImage title="👷‍♂️ El equipo" image="image_04.jpg" />
         <ImagesCarousel title="🏕️ Instalaciones" images={facilities_images} />
       </div>

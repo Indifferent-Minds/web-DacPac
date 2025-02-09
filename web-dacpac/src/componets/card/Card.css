@@ -1,7 +1,10 @@
+.card-container {
+    padding: 2rem 2rem 0rem 2rem;
+}
+
 .titled-card {
     max-width: 960px;
     width: calc(100vw - 4rem) !important;
-    margin: 1rem 2rem 1rem 2rem;
     border-radius: 0.5rem;
     overflow: hidden;
 }

@@ -2,7 +2,7 @@ import Card from '../card/Card';
 import './GoogleMaps.css'
 
 export default function GoogleMaps() {
-    return <Card className='slide-in-left' title="📍 Ubicación">
+    return <Card id="location" className='slide-in-left' title="📍 Ubicación">
         <iframe
             height="450"
             loading="lazy"

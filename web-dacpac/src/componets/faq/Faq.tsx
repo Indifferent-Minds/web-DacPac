@@ -12,7 +12,7 @@ interface FaqProps {
 }
 
 export default function Faq({faqs}: FaqProps) {
-    return <Card className='slide-in-right' title='❔ Preguntas frecuentes'>
+    return <Card id='faq' className='slide-in-right' title='❔ Preguntas frecuentes'>
         <div className="accordion accordion-flush" id="faqAcordion">
             {
                 faqs.map((faq, idx) => 

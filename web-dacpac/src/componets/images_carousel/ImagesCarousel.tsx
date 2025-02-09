@@ -2,6 +2,7 @@ import Card from '../card/Card';
 import './ImagesCarousel.css'
 
 interface ImagesCarouselProp {
+    id?: string;
     title: string;
     images: string[];
 }
@@ -17,10 +18,10 @@ function simpleHash(arr: string[]) {
 
 const base = import.meta.env.VITE_BASE;
 
-export default function ImagesCarousel({title, images}: ImagesCarouselProp) {
+export default function ImagesCarousel({title, id: card_id, images}: ImagesCarouselProp) {
     const id = simpleHash(images);
 
-    return <Card className='slide-in-right' title={title}>
+    return <Card id={card_id} className='slide-in-right' title={title}>
         <div className='images-container'>
             <div id={"carousel_" + id} className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">

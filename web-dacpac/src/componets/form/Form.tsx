@@ -2,7 +2,7 @@ import Card from '../card/Card'
 import './Form.css'
 
 export default function Form() {
-    return <Card className='slide-in-left' title="✏️ Solicitud de inscripción">
+    return <Card id="form" className='slide-in-left' title="✏️ Solicitud de inscripción">
         <div className="form-container">
             <iframe 
                 id="enrollment-form"
