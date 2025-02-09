@@ -1,8 +1,6 @@
 import './Footer.css'
 import ReactIcon from "../../assets/react.svg"
 
-const base = import.meta.env.VITE_BASE;
-
 export default function Footer() {
   return <footer className='row py-2'>
     <div className='col-12 col-sm-4 text-center text-sm-start ps-sm-5'>
