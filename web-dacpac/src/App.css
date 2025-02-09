@@ -7,11 +7,11 @@ h1, h2 {
 }
 
 .parent-container {
-  background: radial-gradient(#ADCDE5, #a4c4db);
+  background: radial-gradient(#ffffff, #ffffff);
 }
 
-.child-container {
-  background: radial-gradient(#ADCDE500, #ADCDE588);
+.child-container {  
+  background: radial-gradient(#ADCDE500, #ffffff);
   overflow: hidden;
 }
 

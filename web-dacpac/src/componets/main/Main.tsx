@@ -1,5 +1,6 @@
 import Banner from '../banner/Banner';
 import BigImage from '../big_image/BigImage';
+import PorqueEste from '../porqueeste/PorqueEste';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';
@@ -41,6 +42,7 @@ export default function Main() {
     return <main className='pb-4'>
       <div className="d-flex flex-column justify-content-center align-items-center">
         <Banner />
+        <PorqueEste />
         <Faq faqs={faqs}/>
         <Form />
         <GoogleMaps />
