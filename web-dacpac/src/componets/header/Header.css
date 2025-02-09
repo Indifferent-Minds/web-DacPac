@@ -1,65 +1,60 @@
 .barranavegacion {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .barranavegacion-social-icons {
+}
+
+.barranavegacion-social-icons {
     display: flex;
     gap: 15px;
-  }
-  
-  .barranavegacion-social-icons a img {
+}
+
+.barranavegacion-social-icons a img {
     width: 24px;
     height: 24px;
     transition: transform 0.3s ease;
-  }
-  
-  .barranavegacion-social-icons a:hover img {
+}
+
+.barranavegacion-social-icons a:hover img {
     transform: scale(1.1);
-  }
-  
-  .barranavegacion-logo {
+}
+
+.barranavegacion-logo {
     text-align: center;
-  }
-  
-  .logo-container {
+}
+
+.logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .logo-container img {
+}
+
+.logo-container img {
     width: 50px;
     height: 50px;
     margin-bottom: 5px;
-  }
-  
-  .logo-container p {
+}
+
+.logo-container p {
     margin: 0;
     font-size: 14px;
     color: #333;
-    
-  }
-  
-  .barranavegacion-links {
-    display: flex;
-    gap: 20px;
+}
+
+.barranavegacion-links {
     font-family:  Tahoma, 'Roboto', sans-serif, arial;
     font-size: 0px;
-  }
-  
-  .barranavegacion-links a {
+}
+
+.barranavegacion-links a {
     text-decoration: none;
     color: #000;
     font-size: 17px;
     transition: color 0.3s ease;
-  }
-  
-  .barranavegacion-links a:hover {
+}
+
+.barranavegacion-links a:hover {
     color: #0077ff;
     transition: color 0.3s ease;
-  }
+}
