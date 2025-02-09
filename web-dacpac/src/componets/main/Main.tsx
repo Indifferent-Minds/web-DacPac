@@ -2,6 +2,7 @@ import Banner from '../banner/Banner';
 import BigImage from '../big_image/BigImage';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
+import GoogleMaps from '../google_maps/GoogleMaps';
 import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import './Main.css'
 
@@ -42,6 +43,7 @@ export default function Main() {
         <Banner />
         <Faq faqs={faqs}/>
         <Form />
+        <GoogleMaps />
         <ImagesCarousel title="👀 Campamentos pasados" images={past_camps_images} />
         <BigImage title="👷‍♂️ El equipo" image="image_04.jpg" />
         <ImagesCarousel title="🏕️ Instalaciones" images={facilities_images} />

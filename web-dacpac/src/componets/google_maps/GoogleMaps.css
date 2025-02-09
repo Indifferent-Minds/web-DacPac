@@ -1,0 +1,7 @@
+div:has(> .google-maps-iframe) {
+    height: 450px;
+}
+
+.google-maps-iframe {
+    width: 100%;
+}
