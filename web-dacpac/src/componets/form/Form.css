@@ -3,7 +3,7 @@
 }
 
 #enrollment-form {
-    max-width: 700px;
+    max-width: 960px;
     width: calc(100vw - 2rem);
     height: 470px;
 }
