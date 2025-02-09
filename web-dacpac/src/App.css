@@ -10,18 +10,6 @@ h1, h2 {
   background: radial-gradient(#ADCDE5, #a4c4db);
 }
 
-@keyframes pan {
-  0% { background-position: 0px 0px; }
-  100% { background-position: 100% 0px; }
-}
-
-.main-container {
-  background-image: url('/tent.svg');
-  background-repeat: repeat;
-  background-size: 3%; /* Adjust tile size */
-  /* animation: pan 270s linear infinite; */
-}
-
 .child-container {
   background: radial-gradient(#ADCDE500, #ADCDE588);
   overflow: hidden;
