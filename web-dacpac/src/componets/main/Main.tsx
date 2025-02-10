@@ -43,8 +43,8 @@ export default function Main() {
       <div className="d-flex flex-column justify-content-center align-items-center">
         <Banner />
         <WhyChoose />
-        <Faq faqs={faqs}/>
         <Form />
+        <Faq faqs={faqs}/>
         <GoogleMaps />
         <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
         <BigImage title="👷‍♂️ El equipo" image="image_04.jpg" />

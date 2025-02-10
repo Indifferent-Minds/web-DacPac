@@ -1,5 +1,9 @@
 .form-container {
-    background-color: white;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #enrollment-form {
@@ -7,6 +11,7 @@
     width: calc(100vw - 2rem);
     height: 470px;
 }
+
 
 @media only screen and (max-width: 620px){
     #enrollment-form {
@@ -28,3 +33,4 @@
         height: 700px;
     }
 }
+
