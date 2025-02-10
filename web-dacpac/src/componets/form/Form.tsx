@@ -1,7 +1,7 @@
 import './Form.css'
 
 
-const WhyChoose = () => {
+const Form = () => {
     return (
         <center>
             <div className="form-container">
@@ -19,4 +19,4 @@ const WhyChoose = () => {
     );
 };
 
-export default WhyChoose;
+export default Form;
