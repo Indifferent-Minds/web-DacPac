@@ -2,7 +2,7 @@ import './WhyChoose.css';
 
 const WhyChoose = () => {
   return (
-    <center>
+    <center className="slide-in-right">
       <div className="whythis">
         <div className="titulo">
           <h3 className="titulo2">¿Por qué elegir este campamento?</h3>

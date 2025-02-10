@@ -3,7 +3,7 @@ import './Form.css'
 
 const Form = () => {
     return (
-        <center>
+        <center className="slide-in-right">
             <div className="form-container">
                 <div className="titulo">
                     <h3 className="titulo2">Formulario de inscripción</h3>
