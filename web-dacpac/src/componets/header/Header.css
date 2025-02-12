@@ -58,3 +58,12 @@
     color: #0077ff;
     transition: color 0.3s ease;
 }
+
+.logoheader {
+    transition: transform 0.3s ease;
+}
+
+.logoheader:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

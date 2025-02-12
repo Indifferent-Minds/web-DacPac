@@ -1,10 +1,10 @@
 import Banner from '../banner/Banner';
-import BigImage from '../big_image/BigImage';
-import WhyChoose from '../WhyChoose/WhyChoose';
+import WhyChoose from '../whychoose/WhyChoose';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';
 import ImagesCarousel from '../images_carousel/ImagesCarousel'
+import Team from '../team/Team'
 import './Main.css'
 
 const past_camps_images = [
@@ -47,7 +47,7 @@ export default function Main() {
         <Faq faqs={faqs}/>
         <GoogleMaps />
         <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
-        <BigImage title="👷‍♂️ El equipo" image="image_04.jpg" />
+        <Team />
         <ImagesCarousel title="🏕️ Instalaciones" images={facilities_images} />
       </div>
     </main>
