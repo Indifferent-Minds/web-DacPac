@@ -8,7 +8,7 @@ const GoogleMaps = () => {
                 <div className="whythis">
                     <div className="titulo">
                         <h3 className="titulo2">Localización</h3>
-                        <h1 className="titulo1">¡Mira donde disfrutamos!</h1>
+                        <h1 className="titulo1">¡Mira donde nos encontramos!</h1>
                     </div>
                     <iframe
                         height="450"
