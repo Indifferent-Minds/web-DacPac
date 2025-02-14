@@ -1,6 +1,6 @@
 import './WhyChoose.css';
 
-const WhyChoose = () => {
+export const WhyChoose = () => {
   return (
     <center className="slide-in-right">
       <div className="whythis">
