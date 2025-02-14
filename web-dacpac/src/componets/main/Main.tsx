@@ -5,7 +5,10 @@ import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';
 import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import Team from '../team/Team'
+import Installations from '../installations/Installations'
 import './Main.css'
+
+
 
 const past_camps_images = [
   'image_01.jpg',
@@ -48,7 +51,8 @@ export default function Main() {
         <GoogleMaps />
         <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
         <Team />
-        <ImagesCarousel title="🏕️ Instalaciones" images={facilities_images} />
+        <Installations images={facilities_images} />
+        
       </div>
     </main>
 }

@@ -20,7 +20,7 @@ const NavBar = () => {
       
       <div className="barranavegacion-logo col-12 col-lg-4">
         <div className="logo-container">
-          <img src={base+'logo.svg'} className="logoheader" />
+          <img src={base+'logo.svg'} className="logoheader" draggable="false" />
           <p>De Alta Capacidad Para Alta Capacidad</p>
         </div>
       </div>

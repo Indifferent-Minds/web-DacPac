@@ -1,0 +1,20 @@
+.whythis {
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo2 {
+    color: #FF9D00;
+    font-weight: bold;
+    font-size: clamp(16px, 5vw, 50px);
+
+}
+
+.titulo1 {
+    color: #FF00D8;
+    font-weight: bold;
+      font-size: clamp(16px, 5vw, 42px);
+}
