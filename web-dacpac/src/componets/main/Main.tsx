@@ -3,7 +3,6 @@ import WhyChoose from '../WhyChoose/WhyChoose';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';
-import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import Team from '../team/Team'
 import Installations from '../installations/Installations'
 import './Main.css'
