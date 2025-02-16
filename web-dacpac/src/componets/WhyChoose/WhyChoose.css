@@ -5,18 +5,7 @@
     margin-right: 10px;
 }
 
-.titulo2 {
-    color: #034E7A;
-    font-weight: bold;
-    font-size: clamp(16px, 5vw, 50px);
 
-}
-
-.titulo1 {
-    color: #034E7A;
-    font-weight: bold;
-      font-size: clamp(16px, 5vw, 42px);
-}
 
 .divtexto {
     max-width: 600px;
