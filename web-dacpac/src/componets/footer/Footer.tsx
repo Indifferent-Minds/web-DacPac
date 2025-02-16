@@ -1,7 +1,7 @@
 import './Footer.css'
 
 const base = import.meta.env.VITE_BASE;
-const img = 'instagram.svg';
+const img = 'instagram_white.svg';
 
 export default function Footer() {
   return <footer className='row py-2'>

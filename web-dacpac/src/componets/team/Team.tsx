@@ -14,7 +14,7 @@ const Team = () => {
         <div className="img">
           <img
             src={base + image}
-            className="imgteam"
+            className="imgteam container-size drop-shadow"
             alt="Foto del campamento"
             draggable="false"
           />

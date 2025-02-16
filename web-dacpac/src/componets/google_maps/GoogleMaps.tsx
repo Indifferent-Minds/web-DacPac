@@ -13,7 +13,7 @@ const GoogleMaps = () => {
                     <iframe
                         height="450"
                         loading="lazy"
-                        className='google-maps-iframe'
+                        className='google-maps-iframe drop-shadow'
                         allowFullScreen
                         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcTcZcfhpQw0RLo0bnrJeeEw&key=AIzaSyCy0oaspf9nHXUBmZJpSvy4PMzRYZ1sl2A">
                     </iframe>
