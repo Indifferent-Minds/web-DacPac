@@ -2,3 +2,10 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.carousel {
+    max-width: 960px;
+    width: calc(100vw - 4rem);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
