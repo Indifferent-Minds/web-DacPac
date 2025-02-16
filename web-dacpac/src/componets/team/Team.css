@@ -6,12 +6,6 @@
     margin-right: 10px;
 }
 
-
-.divtexto {
-    max-width: 600px;
-    font-size: clamp(1px, 5vw, 16px);
-}
-
 .img {
     width: 900px;
     border-radius: 20px;

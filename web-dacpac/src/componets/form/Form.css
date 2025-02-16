@@ -2,8 +2,6 @@
     align-items: center;
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 #enrollment-form {
@@ -34,20 +32,13 @@
     }
 }
 
-.option {
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+.form-link {
     text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    color: #034E7A;
+    transition-duration: 0.25s;
+    font-size: 1.25rem;
 }
 
-.option-text {
-    position: relative;
-    z-index: 1;
+.form-link:hover {
+    color: #007BAE;
 }

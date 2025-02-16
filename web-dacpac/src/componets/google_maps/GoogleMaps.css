@@ -1,15 +1,8 @@
-div:has(> .google-maps-iframe) {
-    height: 450px;
-}
-
 .google-maps-iframe {
     width: 100%;
 }
 
 .mapsframe {
-    width: 800px;
-    margin-top: 60px;
-    margin-bottom: 160px;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 960px;
+    width: calc(100vw - 4rem);
 }

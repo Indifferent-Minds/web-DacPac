@@ -93,8 +93,6 @@ export default function Main() {
       <Installations images={facilities_images} />
       <Team />
       <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
-      
-
     </div>
   </main>
 }

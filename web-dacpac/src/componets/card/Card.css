@@ -4,7 +4,7 @@
 
 .titled-card {
     max-width: 960px;
-    width: calc(100vw - 4rem) !important;
+    width: calc(100vw - 4rem);
     border-radius: 0.5rem;
     overflow: hidden;
 }
