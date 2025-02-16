@@ -1,5 +1,5 @@
 import Banner from '../banner/Banner';
-import WhyChoose from '../whychoose/WhyChoose';
+import WhyChoose from '../WhyChoose/WhyChoose';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';

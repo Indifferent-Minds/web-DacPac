@@ -6,14 +6,14 @@
 }
 
 .titulo2 {
-    color: #FF9D00;
+    color: #034E7A;
     font-weight: bold;
     font-size: clamp(16px, 5vw, 50px);
 
 }
 
 .titulo1 {
-    color: #FF00D8;
+    color: #034E7A;
     font-weight: bold;
       font-size: clamp(16px, 5vw, 42px);
 }

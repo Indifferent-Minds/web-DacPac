@@ -15,7 +15,7 @@ const GoogleMaps = () => {
                         loading="lazy"
                         className='google-maps-iframe'
                         allowFullScreen
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcTcZcfhpQw0RLo0bnrJeeEw&key=AIzaSyDIuGYYbacZc0sOla0a313XuqqzOSw6zy4">
+                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJcTcZcfhpQw0RLo0bnrJeeEw&key=AIzaSyCy0oaspf9nHXUBmZJpSvy4PMzRYZ1sl2A">
                     </iframe>
                 </div>
             </div>

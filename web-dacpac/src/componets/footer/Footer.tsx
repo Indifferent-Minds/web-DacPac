@@ -8,7 +8,7 @@ export default function Footer() {
       <a href="mailto:campamentodacpac@gmail.com">campamentodacpac@gmail.com</a>
     </div>
     <div className='col-12 col-sm-4 text-center my-2 my-sm-0'>
-      &copy; Loh chavaleh 2024🤘
+      Campamento DacPac
     </div>
     <div className='col-12 col-sm-4 text-center text-sm-end pe-sm-5'>
       <a href="https://www.instagram.com/dacpac.campamento/" target='_blank' rel='noreferrer'>
