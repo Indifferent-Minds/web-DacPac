@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cd web-dacpac && ls -la  # Debugging step to check the directory structure
-      - run: cd web-dacpac && pwd  # Debugging step to check the directory structure
       - run: cd web-dacpac && npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
@@ -21,3 +19,4 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CAMPAMENTO_DAC_PAC_IV }}
           channelId: live
           projectId: campamento-dac-pac-iv
+          entryPoint: web-dacpac
