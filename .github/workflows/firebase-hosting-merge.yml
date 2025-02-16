@@ -12,7 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cd web-DacPac && npm ci && npm run build
+      - run: ls -la  # Debugging step to check the directory structure
+      - run: pwd  # Debugging step to check the directory structure
+      - run: cd web-DacPac/web-DacPac && npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
