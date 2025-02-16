@@ -24,35 +24,51 @@ const facilities_images = [
 
 const faqs = [
   {
-    question: "¿Cuántas veces se va a lavar las manos mi niño?",
-    answer: <><strong>CERO.</strong> No porque no nos lavemos las manos, sino porque si eso es lo que te preocupa tu niño no va ni a pisar el campamento 💖</>
+    question: "¿Qué hace distinto el campamento DAC-PAC?",
+    answer: <>Es un campamento pensado por y para personas con altas capacidades. Todo el enfoque de este campamento está creado con el objetivo de generar el mayor confort para los participantes. Esto es posible ya que todo el equipo involucrado en el desarrollo de este campamento tiene alta capacidad, por lo que es más sencillo conectar con las necesidades de los camper.</>
   },
   {
-    question: "¿Vais a tener cuiraro con mi niño?",
-    answer: <><strong>NO.</strong> Tu hijo aprenderá a cuirarse solo 🤯</>
+    question: "¿En qué fechas y lugar se desarrollará el campamento?",
+    answer: <>En el albergue El Molino, en Huérmeces del Cerro, Guadalajara. Desde el día 14 de Julio hasta el día 26.</>
   },
   {
-    question: "¿Cuántas veces puedo ir a ver a mi niño durante el campamento?",
-    answer: <><strong>LAS QUE QUIERAS.</strong> Pero a la segunda os echamos a los dos 😘</>
+    question: "¿Qué requisitos debo cumplir para ir al campamento?",
+    answer: <>Tener entre 8 y 18 años, y una evaluación de alta capacidad.</>
   },
   {
-    question: "¿Cuántos jabones puede llevar mi bebé como máximo?",
-    answer: <><strong>50.</strong> Le daremos uno a él y repartiremos el resto, compartir es vivir ✨</>
+    question: "¿Qué precio tiene el campamento? ¿Qué incluye?",
+    answer: <>El campamento tiene un precio de 1.290€ IVA incluido, incluye alojamiento y pensión completa, durante los 12 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
+  },
+  {
+    question: "¿Qué tipo de actividades se llevan a cabo?",
+    answer: <>Se realizan actividades para todos los gustos, desde juegos clásicos de campamento, actividades artísticas, excursiones al campo hasta charlas con expertos o “scape rooms”.</>
+  },
+  {
+    question: "¿Cuántos participantes tiene el campamento?",
+    answer: <>El campamento tendrá un aforo máximo de 60 participantes, de diferentes grupos de edades.</>
+  },
+  {
+    question: "¿Durante el campamento la familia podrá ponerse en contacto con el asistente?",
+    answer: <>Si, siempre que se necesite. Desde el campamento recomendamos restringir este contacto en la medida de lo posible para que pueda vivir la experiencia al máximo.</>
+  },
+  {
+    question: "¿El desplazamiento hasta el campamento cómo se realiza?",
+    answer: <>El desplazamiento se realiza por parte de las familias, hasta las instalaciones del albergue, y la recogida de igual manera.</>
   },
 ];
 
 export default function Main() {
-    return <main className='pb-4'>
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <Banner />
-        <WhyChoose />
-        <Form />
-        <Faq faqs={faqs}/>
-        <GoogleMaps />
-        <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
-        <Team />
-        <Installations images={facilities_images} />
-        
-      </div>
-    </main>
+  return <main className='pb-4'>
+    <div className="d-flex flex-column justify-content-center align-items-center">
+      <Banner />
+      <WhyChoose />
+      <Form />
+      <Faq faqs={faqs} />
+      <GoogleMaps />
+      <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
+      <Team />
+      <Installations images={facilities_images} />
+
+    </div>
+  </main>
 }
