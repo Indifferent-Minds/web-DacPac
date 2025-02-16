@@ -11,15 +11,40 @@ import './Main.css'
 
 
 const past_camps_images = [
-  'image_01.jpg',
-  'image_02.jpg',
-  'image_03.jpg',
+  'otros_1.jpg',
+  'otros_2.jpeg',
+  'otros_3.jpg',
+  'otros_4.jpg',
+  'otros_5.jpg',
+  'otros_6.jpeg',
+  'otros_7.jpeg',
+  'otros_8.jpeg',
+  'otros_9.jpeg',
+  'otros_10.jpg',
+  'otros_11.jpg',
+  'otros_12.jpg',
+  'otros_13.jpg',
+  'otros_14.jpg',
+  'otros_15.jpg',
+  'otros_16.jpg',
+  'otros_17.jpg',
 ];
 
 const facilities_images = [
-  'image_02.jpg',
-  'image_03.jpg',
-  'image_04.jpg',
+  'instalaciones_1.jpg',
+  'instalaciones_2.jpg',
+  'instalaciones_3.jpg',
+  'instalaciones_4.jpg',
+  'instalaciones_5.jpg',
+  'instalaciones_6.jpg',
+  'instalaciones_7.jpg',
+  'instalaciones_8.jpg',
+  'instalaciones_9.jpg',
+  'instalaciones_10.jpg',
+  'instalaciones_11.jpg',
+  'instalaciones_12.jpg',
+  'instalaciones_13.jpg',
+  'instalaciones_14.jpg',
 ];
 
 const faqs = [
@@ -65,9 +90,10 @@ export default function Main() {
       <Form />
       <Faq faqs={faqs} />
       <GoogleMaps />
-      <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
-      <Team />
       <Installations images={facilities_images} />
+      <Team />
+      <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
+      
 
     </div>
   </main>

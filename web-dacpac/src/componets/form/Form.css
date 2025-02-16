@@ -34,3 +34,20 @@
     }
 }
 
+.option {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.option-text {
+    position: relative;
+    z-index: 1;
+}

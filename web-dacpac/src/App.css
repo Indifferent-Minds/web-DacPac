@@ -97,7 +97,7 @@ h1, h2 {
 }
 
 .titulo1 {
-  color: #2E87B5;
+  color: #007BAE;
   font-weight: bold;
     font-size: clamp(16px, 5vw, 42px);
 }

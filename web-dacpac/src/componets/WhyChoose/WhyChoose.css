@@ -5,14 +5,18 @@
     margin-right: 10px;
 }
 
-
-
 .divtexto {
     max-width: 600px;
     font-size: clamp(1px, 5vw, 16px);
+    max-width: 100%;
+    width: min(100% - 20px, 1200px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgen-whychoose {
-    width: 900px;
     margin-top: -30px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }

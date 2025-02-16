@@ -3,7 +3,7 @@ import './GoogleMaps.css'
 
 const GoogleMaps = () => {
     return (
-        <center className="slide-in-right">
+        <center className="slide-in-right" id='location'>
             <div className="mapsframe">
                 <div className="whythis">
                     <div className="titulo">
