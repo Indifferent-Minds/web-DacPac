@@ -30,20 +30,20 @@ const past_camps_images = [
 ];
 
 const facilities_images = [
-  'otros_1.jpg',
-  'otros_2.jpg',
-  'otros_3.jpg',
-  'otros_4.jpg',
-  'otros_5.jpg',
-  'otros_6.jpg',
-  'otros_7.jpg',
-  'otros_8.jpg',
-  'otros_9.jpg',
-  'otros_10.jpg',
-  'otros_11.jpg',
-  'otros_12.jpg',
-  'otros_13.jpg',
-  'otros_14.jpg',
+  'instalaciones_1.jpg',
+  'instalaciones_2.jpg',
+  'instalaciones_3.jpg',
+  'instalaciones_4.jpg',
+  'instalaciones_5.jpg',
+  'instalaciones_6.jpg',
+  'instalaciones_7.jpg',
+  'instalaciones_8.jpg',
+  'instalaciones_9.jpg',
+  'instalaciones_10.jpg',
+  'instalaciones_11.jpg',
+  'instalaciones_12.jpg',
+  'instalaciones_13.jpg',
+  'instalaciones_14.jpg',
 ];
 
 const faqs = [
