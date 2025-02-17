@@ -1,24 +1,3 @@
-.teams {
-    align-items: center;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-.divtexto {
-    max-width: 600px;
-    font-size: clamp(1px, 5vw, 16px);
-}
-
-.img {
-    width: 900px;
-    border-radius: 20px;
-    margin-top: 40px;
-}
-
 .imgteam {
-    border-radius: 25px;
-    height: 600px;
+    border-radius: 0.5rem;
 }

@@ -42,20 +42,16 @@
     color: #333;
 }
 
-.barranavegacion-links {
-    font-family:  Tahoma, 'Roboto', sans-serif, arial;
-    font-size: 0px;
-}
-
 .barranavegacion-links a {
     text-decoration: none;
-    color: #000;
-    font-size: 17px;
+    color: #034E7A;
+    font-size: 1rem;
     transition: color 0.3s ease;
+    text-wrap-mode: nowrap;
 }
 
 .barranavegacion-links a:hover {
-    color: #0077ff;
+    color: #2E87B5;
     transition: color 0.3s ease;
 }
 

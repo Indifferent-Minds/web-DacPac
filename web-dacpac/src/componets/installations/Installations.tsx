@@ -2,6 +2,8 @@ import './Installations.css';
 
 interface ImagesCarouselProps {
   images: string[];
+  title: string;
+  subtitle: string;
 }
 
 function simpleHash(arr: string[]) {
@@ -12,7 +14,7 @@ function simpleHash(arr: string[]) {
     .toString(16);
 }
 
-const Installations: React.FC<ImagesCarouselProps> = ({ images }) => {
+const Installations: React.FC<ImagesCarouselProps> = ({ images, title, subtitle }) => {
   const id = simpleHash(images);
   const base = "";
 
@@ -20,10 +22,10 @@ const Installations: React.FC<ImagesCarouselProps> = ({ images }) => {
     <main className='slide-in-right'>
       <center className='installationsall'>
         <div className="titulo">
-          <h3 className="titulo2">Instalaciones</h3>
-          <h1 className="titulo1">¡Mira como es el sitio!</h1>
+          <h3 className="titulo2">{title}</h3>
+          <h1 className="titulo1">{subtitle}</h1>
         </div>
-        <div id={"carousel_" + id} className="carousel slide" data-bs-ride="carousel">
+        <div id={"carousel_" + id} className="carousel slide drop-shadow" data-bs-ride="carousel">
           <div className="carousel-inner">
             {images.map((img, idx) => (
               <div className={'carousel-item' + (idx === 0 ? ' active' : '')} key={idx}>

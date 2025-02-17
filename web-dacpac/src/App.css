@@ -7,7 +7,7 @@ h1, h2 {
 }
 
 .parent-container {
-  background: radial-gradient(#ffffff, #ffffff);
+  background-color: #ADCDE5;
 }
 
 .child-container {  
@@ -100,4 +100,20 @@ h1, h2 {
   color: #007BAE;
   font-weight: bold;
     font-size: clamp(16px, 5vw, 42px);
+}
+
+
+.divtexto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whythis {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-size {
+  max-width: 960px;
+  width: calc(100vw - 4rem);
 }

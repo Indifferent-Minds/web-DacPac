@@ -1,12 +1,11 @@
-.whythis {
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .installationsall {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.carousel {
+    max-width: 960px;
+    width: calc(100vw - 4rem);
+    border-radius: 0.5rem;
+    overflow: hidden;
 }

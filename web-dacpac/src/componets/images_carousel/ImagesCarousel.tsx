@@ -22,7 +22,7 @@ export default function ImagesCarousel({title, id: card_id, images}: ImagesCarou
     const id = simpleHash(images);
 
     return <Card id={card_id} className='slide-in-right' title={title}>
-        <div className='images-container'>
+        <div className='images-container drop-shadow'>
             <div id={"carousel_" + id} className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 {

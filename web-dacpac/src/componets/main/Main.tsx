@@ -3,7 +3,6 @@ import WhyChoose from '../WhyChoose/WhyChoose';
 import Faq from '../faq/Faq';
 import Form from '../form/Form'
 import GoogleMaps from '../google_maps/GoogleMaps';
-import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import Team from '../team/Team'
 import Installations from '../installations/Installations'
 import './Main.css'
@@ -12,14 +11,14 @@ import './Main.css'
 
 const past_camps_images = [
   'otros_1.jpg',
-  'otros_2.jpeg',
+  'otros_2.jpg',
   'otros_3.jpg',
   'otros_4.jpg',
   'otros_5.jpg',
-  'otros_6.jpeg',
-  'otros_7.jpeg',
-  'otros_8.jpeg',
-  'otros_9.jpeg',
+  'otros_6.jpg',
+  'otros_7.jpg',
+  'otros_8.jpg',
+  'otros_9.jpg',
   'otros_10.jpg',
   'otros_11.jpg',
   'otros_12.jpg',
@@ -31,20 +30,20 @@ const past_camps_images = [
 ];
 
 const facilities_images = [
-  'instalaciones_1.jpg',
-  'instalaciones_2.jpg',
-  'instalaciones_3.jpg',
-  'instalaciones_4.jpg',
-  'instalaciones_5.jpg',
-  'instalaciones_6.jpg',
-  'instalaciones_7.jpg',
-  'instalaciones_8.jpg',
-  'instalaciones_9.jpg',
-  'instalaciones_10.jpg',
-  'instalaciones_11.jpg',
-  'instalaciones_12.jpg',
-  'instalaciones_13.jpg',
-  'instalaciones_14.jpg',
+  'otros_1.jpg',
+  'otros_2.jpg',
+  'otros_3.jpg',
+  'otros_4.jpg',
+  'otros_5.jpg',
+  'otros_6.jpg',
+  'otros_7.jpg',
+  'otros_8.jpg',
+  'otros_9.jpg',
+  'otros_10.jpg',
+  'otros_11.jpg',
+  'otros_12.jpg',
+  'otros_13.jpg',
+  'otros_14.jpg',
 ];
 
 const faqs = [
@@ -90,11 +89,9 @@ export default function Main() {
       <Form />
       <Faq faqs={faqs} />
       <GoogleMaps />
-      <Installations images={facilities_images} />
+      <Installations title='Instalaciones' subtitle='¡Mira el albergue!' images={facilities_images} />
       <Team />
-      <ImagesCarousel id='images' title="👀 Campamentos pasados" images={past_camps_images} />
-      
-
+      <Installations title='Otras ediciones' subtitle='¡Mira campamentos pasados!' images={past_camps_images} />
     </div>
   </main>
 }
