@@ -16,7 +16,7 @@ export const WhyChoose = () => {
             </p>
         </div>
         <div className="img">
-          <img src={base + img} draggable="false" alt="Imagenes de campamento" className="imagen-whychoose drop-shadow" />
+          <img src={base + img} draggable="false" alt="Imagenes de campamento" className="imagen-whychoose" />
         </div>
       </div>
     </center>
