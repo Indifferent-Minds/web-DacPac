@@ -89,7 +89,7 @@ export default function Main() {
       <Form />
       <Faq faqs={faqs} />
       <GoogleMaps />
-      <Installations title='Instalaciones' subtitle='¡Mira el albergue!' images={facilities_images} />
+      <Installations component_id='images' title='Instalaciones' subtitle='¡Mira el albergue!' images={facilities_images} />
       <Team />
       <Installations title='Otras ediciones' subtitle='¡Mira campamentos pasados!' images={past_camps_images} />
     </div>
