@@ -4,6 +4,7 @@ interface ImagesCarouselProps {
   images: string[];
   title: string;
   subtitle: string;
+  component_id?: string;
 }
 
 function simpleHash(arr: string[]) {
@@ -14,12 +15,12 @@ function simpleHash(arr: string[]) {
     .toString(16);
 }
 
-const Installations: React.FC<ImagesCarouselProps> = ({ images, title, subtitle }) => {
+const Installations: React.FC<ImagesCarouselProps> = ({ images, title, subtitle, component_id }) => {
   const id = simpleHash(images);
   const base = "";
 
   return (
-    <main className='slide-in-right'>
+    <main className='slide-in-right' id={component_id ?? ''}>
       <center className='installationsall'>
         <div className="titulo">
           <h3 className="titulo2">{title}</h3>
