@@ -1,44 +1,43 @@
-.form-container {
-    align-items: center;
-    margin-top: 50px;
+.form-button {
+    display: inline-block;
+    width: 80%;
+    max-width: 400px;
+    padding: 28px 32px; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #034e7a;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#enrollment-form {
-    max-width: 960px;
-    width: calc(100vw - 2rem);
-    height: 470px;
+.form-button:hover {
+    background-color: #034e7a;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
+.form-button:active {
+    transform: scale(0.98);
+}
 
-@media only screen and (max-width: 620px){
-    #enrollment-form {
-        height: 500px;
-    }
-}
-@media only screen and (max-width: 450px){
-    #enrollment-form {
-        height: 540px;
-    }
-}
-@media only screen and (max-width: 400px){
-    #enrollment-form {
-        height: 600px;
-    }
-}
-@media only screen and (max-width: 340px){
-    #enrollment-form {
-        height: 700px;
+@media only screen and (max-width: 620px) {
+    .form-button {
+        font-size: 1rem;
+        padding: 16px 18px; 
     }
 }
 
-.form-link {
-    text-decoration: none;
-    color: #034E7A;
-    transition-duration: 0.25s;
-    font-size: 1.25rem;
-}
-
-.form-link:hover {
-    color: #007BAE;
+@media only screen and (max-width: 450px) {
+    .form-button {
+        width: 90%;
+        font-size: 0.9rem;
+        padding: 14px 16px;
+    }
 }

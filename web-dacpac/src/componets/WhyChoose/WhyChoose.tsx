@@ -15,9 +15,6 @@ export const WhyChoose = () => {
           <p className="texto">El campamento Dac-Pac es una experiencia diseñada exclusivamente para niños con altas capacidades, con un equipo que entiende sus necesidades y crea un entorno enriquecedor. A través de actividades variadas y estimulantes, fomenta el desarrollo intelectual, social y emocional en un ambiente donde pueden conectar con personas afines.
             </p>
         </div>
-        <div className="img">
-          <img src={base + img} draggable="false" alt="Imagenes de campamento" className="imagen-whychoose" />
-        </div>
       </div>
     </center>
   );

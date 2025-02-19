@@ -34,7 +34,7 @@ const facilities_images = [
   'instalaciones_2.jpg',
   'instalaciones_3.jpg',
   'instalaciones_4.jpg',
-  'instalaciones_5.jpg',
+  'instalaciones_5.png',
   'instalaciones_6.jpg',
   'instalaciones_7.jpg',
   'instalaciones_8.jpg',
