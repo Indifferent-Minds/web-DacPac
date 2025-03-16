@@ -1,8 +1,5 @@
 import './WhyChoose.css';
 
-const base = import.meta.env.VITE_BASE;
-const img = "whychoose.png";
-
 export const WhyChoose = () => {
   return (
     <center className="slide-in-right">
@@ -12,11 +9,8 @@ export const WhyChoose = () => {
           <h1 className="titulo1">Diversión asegurada</h1>
         </div>
         <div className="divtexto container-size">
-          <p className="texto">El campamento Dac-Pac es una experiencia diseñada exclusivamente para niños con altas capacidades, con un equipo que entiende sus necesidades y crea un entorno enriquecedor. A través de actividades variadas y estimulantes, fomenta el desarrollo intelectual, social y emocional en un ambiente donde pueden conectar con personas afines.
+          <p className="texto">El campamento Dac-Pac busca crear un espacio de comfort y descanso, con un equipo de monitores que entiende sus necesidades y crea un entorno enriquecedor y estimulante. Con actividades para todos, desde scape rooms,charlas con expertos, actividades artísticas o deportivas hasta los juegos más clásicos de campamento.
             </p>
-        </div>
-        <div className="img">
-          <img src={base + img} draggable="false" alt="Imagenes de campamento" className="imagen-whychoose" />
         </div>
       </div>
     </center>
