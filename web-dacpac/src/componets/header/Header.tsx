@@ -27,7 +27,7 @@ const NavBar = () => {
 
       <div className="barranavegacion-links col-4 d-none d-lg-block">
         <div className="d-flex justify-content-end">
-          <a href="#faq" className='mx-2'>Preguntas frequentes</a>
+          <a href="#faq" className='mx-2'>Preguntas frecuentes</a>
           <a href="#form" className='mx-2'>Inscripción</a> 
           <a href="#location" className='mx-2'>Ubicación</a> 
           <a href="#images" className='mx-2'>Fotos</a>
