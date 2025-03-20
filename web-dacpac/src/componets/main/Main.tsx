@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: "¿En qué fechas y lugar se desarrollará el campamento?",
-    answer: <>En el albergue El Molino, en Huérmeces del Cerro, Guadalajara. Desde el día 14 de Julio hasta el día 26.</>
+    answer: <>En el albergue El Molino, en Huérmeces del Cerro, Guadalajara. Desde el día 14 de Julio hasta el día 25.</>
   },
   {
     question: "¿Qué requisitos debo cumplir para ir al campamento?",
