@@ -1,7 +1,7 @@
 .barranavegacion {
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: var(--text-color-banners);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,19 +39,19 @@
 .logo-container p {
     margin: 0;
     font-size: 1rem;
-    color: #034E7A;
+    color: var(--primary-color);
 }
 
 .barranavegacion-links a {
     text-decoration: none;
-    color: #034E7A;
+    color: var(--primary-color);
     font-size: 1rem;
     transition: color 0.3s ease;
     text-wrap-mode: nowrap;
 }
 
 .barranavegacion-links a:hover {
-    color: #2E87B5;
+    color: var(--secondary-color);
     transition: color 0.3s ease;
 }
 
