@@ -1,6 +1,6 @@
 # web-DacPac
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen) [![GH pages deploy workflow](https://github.com/pabloqb2000/web-DacPac/actions/workflows/gh_pages-deploy.yml/badge.svg)](https://github.com/pabloqb2000/web-DacPac/actions/workflows/gh_pages-deploy.yml) ![License](https://img.shields.io/badge/license-MIT-blue) ![Node.js](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen) ![React](https://img.shields.io/badge/react-18.3.1-blue)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![Node.js](https://img.shields.io/badge/node-%3E%3D%2016.0.0-brightgreen) ![React](https://img.shields.io/badge/react-18.3.1-blue)
 
 Bienvenidos a la web de DacPac 🤘
 
