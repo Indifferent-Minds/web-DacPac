@@ -1,5 +1,5 @@
 .images-container {
-    background-color: #AACAE1;
+    background-color: var(--bg-color);
 }
 
 .carousel {

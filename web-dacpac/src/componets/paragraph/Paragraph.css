@@ -1,6 +1,6 @@
 p {
     font-size: 18px;  
-    color: #333; 
+    color: var(--text-color-paragraphs); 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     line-height: 1.6;  
     text-align: center; 

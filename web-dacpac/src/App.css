@@ -7,11 +7,11 @@ h1, h2 {
 }
 
 .parent-container {
-  background-color: #ADCDE5;
+  background-color: var(--bg-color);
 }
 
 .child-container {  
-  background: radial-gradient(#ADCDE500, #ffffff);
+  background: radial-gradient(var(--bg-color), white);
   overflow: hidden;
 }
 
@@ -90,14 +90,14 @@ h1, h2 {
 }
 
 .titulo2 {
-  color: #034E7A;
+  color: var(--primary-color);
   font-weight: bold;
   font-size: clamp(16px, 5vw, 50px);
 
 }
 
 .titulo1 {
-  color: #007BAE;
+  color: var(--secondary-color);
   font-weight: bold;
     font-size: clamp(16px, 5vw, 42px);
 }

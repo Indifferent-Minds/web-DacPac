@@ -20,3 +20,21 @@ html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+
+body[data-theme="main-theme"] {
+  --bg-color: #aecde5;
+  --primary-color: #03507c;
+  --secondary-color: #2f89b6;
+  --text-color-banners: #FFF;
+  --text-color-paragraphs: #333; 
+}
+
+body[data-theme="adult-theme"] {
+  --bg-color: #e5d7ae;
+  --primary-color: #fbc113;
+  --secondary-color: #333;
+  --text-color-banners: #FFF;
+  --text-color-paragraphs: #333; 
+}
+

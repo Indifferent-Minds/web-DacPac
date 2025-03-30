@@ -10,7 +10,7 @@
 }
 
 .titled-card > :first-child {
-    background-color: #034E7A;
+    background-color: var(--primary-color);
     padding-left: 1rem;
     color: white;
 }

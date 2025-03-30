@@ -1,5 +1,5 @@
 footer {
-    background-color: #034E7A;
+    background-color: var(--primary-color);
     color: white;
 }   
 

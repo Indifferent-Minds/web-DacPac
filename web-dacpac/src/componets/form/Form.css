@@ -6,7 +6,7 @@
     font-size: 1.75rem;
     font-weight: bold;
     color: white;
-    background-color: #034e7a;
+    background-color: var(--primary-color);
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -18,7 +18,7 @@
 }
 
 .form-button:hover {
-    background-color: #034e7a;
+    background-color: var(--primary-color);
     transform: scale(1.05);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
 }

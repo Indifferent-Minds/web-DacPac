@@ -1,6 +1,12 @@
 import './Banner.css'
 
-export default function Banner() {
+interface BannerProp {
+    title?: string;
+    subTitles?: string;
+    extraText?: string;
+}
+
+export default function Banner({title, subTitles, extraText}: BannerProp) {
     return <section className='banner'>
         <div className="bg"></div>
         <h1>Campamento Dac-Pac</h1>

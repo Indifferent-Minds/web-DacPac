@@ -1,11 +1,12 @@
-import Banner from '../banner/Banner';
-import WhyChoose from '../WhyChoose/WhyChoose';
-import Faq from '../faq/Faq';
-import Form from '../form/Form'
-import GoogleMaps from '../google_maps/GoogleMaps';
-import Team from '../team/Team'
-import Installations from '../installations/Installations'
-import './Main.css'
+import Banner from '../../banner/Banner';
+import Paragraph from '../../paragraph/Paragraph';
+import Faq from '../../faq/Faq';
+import Form from '../../form/Form'
+import GoogleMaps from '../../google_maps/GoogleMaps';
+import Team from '../../team/Team'
+import Installations from '../../installations/Installations'
+import './Main.css';
+import { useEffect } from 'react';
 
 
 
@@ -56,10 +57,6 @@ const faqs = [
     answer: <>En el albergue El Molino, en Huérmeces del Cerro, Guadalajara. Desde el día 14 de Julio hasta el día 25.</>
   },
   {
-    question: "¿Qué requisitos debo cumplir para ir al campamento?",
-    answer: <>Tener entre 8 y 18 años, y una evaluación de alta capacidad.</>
-  },
-  {
     question: "¿Qué precio tiene el campamento? ¿Qué incluye?",
     answer: <>El campamento tiene un precio de 1.290€ IVA incluido, incluye alojamiento y pensión completa, durante los 12 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
   },
@@ -81,11 +78,19 @@ const faqs = [
   },
 ];
 
+
 export default function Main() {
+  const theme = "main-theme";
+  useEffect(
+    () => document.body.setAttribute("data-theme", theme),
+    []
+  )
+  document.body.setAttribute("data-theme", theme);
+
   return <main className='pb-4'>
     <div className="d-flex flex-column justify-content-center align-items-center">
       <Banner />
-      <WhyChoose />
+      <Paragraph />
       <Form />
       <Faq faqs={faqs} />
       <GoogleMaps />
