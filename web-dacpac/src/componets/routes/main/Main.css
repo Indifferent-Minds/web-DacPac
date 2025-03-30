@@ -1,0 +1,7 @@
+.drop-shadow {
+    box-shadow: 0.5rem 0.5rem 0.5rem #034E7A66;
+}
+
+.drop-shadow-vertical {
+    box-shadow: 0rem 0.5rem 0.5rem #034E7A66;
+}

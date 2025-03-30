@@ -1,7 +1,9 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Footer from './componets/footer/Footer'
 import Header from './componets/header/Header'
-import Main from './componets/main/Main'
+import Adults from './componets/routes/adults/Adults'
+import Main from './componets/routes/main/Main'
 
 function App() {
   return (
@@ -10,7 +12,13 @@ function App() {
         <div className="main-container">
           <div className="child-container">
             <Header />
-            <Main />
+              <BrowserRouter>
+                <Routes>
+                    <Route index element={<Main />} />
+                    <Route path="adultos" element={<Adults />} />
+                    <Route path="*" element={<Main />} />
+                </Routes>
+              </BrowserRouter>
             <Footer />
           </div>
         </div>
