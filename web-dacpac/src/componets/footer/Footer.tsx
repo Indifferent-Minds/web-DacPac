@@ -16,7 +16,7 @@ export default function Footer() {
         <img src={base + 'instagram_white.svg'} alt="instagram" height={16} />
       </a>
       <a href="https://www.github.com/indifferent-minds/github" target='_blank' rel='noreferrer'>
-        <img src={base + 'github.svg'} alt="instagram" height={16} />
+        <img src={base + 'github.svg'} alt="instagram" height={16} className='github'/>
         </a>
     </div>
   </footer>
