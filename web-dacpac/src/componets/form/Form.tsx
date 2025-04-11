@@ -22,7 +22,7 @@ const Form = ({title, subTitle, buttonText}: FromProp) => {
                 <div className="divtexto container-size">
                     <button 
                         className="form-button" 
-                        onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSdaSO1NOJNvksjyiRye1teWs6-0r9Z5Ro0fpJWZCeIY6A1pEA/viewform", "_blank")}
+                        onClick={() => window.open("https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLScXfGhpmBUWiDtcb7teAbfsHBoMZG0wMkV_y-tfWxUNdKYWRQ/viewform?usp%3Ddialog&sa=D&source=editors&ust=1744390865738314&usg=AOvVaw0FeqVzMYU-c45ANnTk-fqn", "_blank")}
                     >
                         {buttonText ?? '📝 Ir al formulario'}
                     </button>
