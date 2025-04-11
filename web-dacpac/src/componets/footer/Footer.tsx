@@ -16,6 +16,9 @@ export default function Footer() {
       <a href="https://www.instagram.com/dacpac.campamento/" target='_blank' rel='noreferrer'>
         <img src={base + img} alt="instagram" height={16} />
       </a>
+      <a href="https://www.github.com/indifferent-minds/github" target='_blank' rel='noreferrer'>
+        <img src={base + img} alt="instagram" height={16} />
+        </a>
     </div>
   </footer>
 }
