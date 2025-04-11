@@ -1,7 +1,6 @@
 import './Footer.css'
 
 const base = import.meta.env.VITE_BASE;
-const img = 'instagram_white.svg';
 
 export default function Footer() {
   return <footer className='row py-2'>
@@ -14,10 +13,10 @@ export default function Footer() {
     </div>
     <div className='col-12 col-sm-4 text-center text-sm-end pe-sm-5'>
       <a href="https://www.instagram.com/dacpac.campamento/" target='_blank' rel='noreferrer'>
-        <img src={base + img} alt="instagram" height={16} />
+        <img src={base + 'instagram_white.svg'} alt="instagram" height={16} />
       </a>
       <a href="https://www.github.com/indifferent-minds/github" target='_blank' rel='noreferrer'>
-        <img src={base + img} alt="instagram" height={16} />
+        <img src={base + 'github.svg'} alt="instagram" height={16} />
         </a>
     </div>
   </footer>
