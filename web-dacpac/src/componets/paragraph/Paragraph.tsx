@@ -17,7 +17,7 @@ export const Paragraph = ({title, subTitle, paragraphText}: ParagraphProp) => {
           <h1 className="titulo1">{subTitle ?? 'Diversión asegurada'}</h1>
         </div>
         <div className="divtexto container-size">
-          <p className="texto">{paragraphText ?? 'El campamento Dac-Pac busca crear un espacio de comfort y descanso, con un equipo de monitores que entiende sus necesidades y crea un entorno enriquecedor y estimulante. Con actividades para todos, desde scape rooms,charlas con expertos, actividades artísticas o deportivas hasta los juegos más clásicos de campamento.'}
+          <p className="texto">{paragraphText ?? 'El campamento Dac-Pac busca crear un espacio de comfort y descanso, con un equipo de monitores que entiende sus necesidades y crea un entorno enriquecedor y estimulante. Con actividades para todos, desde scape rooms,    charlas con expertos, actividades artísticas o deportivas hasta los juegos más clásicos de campamento.'}
             </p>
         </div>
       </div>

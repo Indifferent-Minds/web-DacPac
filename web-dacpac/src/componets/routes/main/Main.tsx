@@ -5,6 +5,7 @@ import Form from '../../form/Form'
 import GoogleMaps from '../../google_maps/GoogleMaps';
 import Team from '../../team/Team'
 import Installations from '../../installations/Installations'
+import Newsletter from '../../newsletter/newsletter'
 import './Main.css';
 import { useEffect } from 'react';
 
@@ -97,6 +98,7 @@ export default function Main() {
       <Installations component_id='images' title='Instalaciones' subtitle='¡Mira el albergue!' images={facilities_images} />
       <Team />
       <Installations title='Otras ediciones' subtitle='¡Mira campamentos pasados!' images={past_camps_images} />
+      <Newsletter />
     </div>
   </main>
 }
