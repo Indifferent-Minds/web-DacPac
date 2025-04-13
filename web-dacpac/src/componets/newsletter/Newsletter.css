@@ -32,7 +32,7 @@
     border: 2px solid #3b82f6;
   }
 
-  input[type="email"] {
+  .textoinput {
     width: 100%;
     border: 0;
     background-color: transparent;
@@ -41,12 +41,12 @@
     outline: none;
   }
 
-  input[type="email"]::placeholder {
+  .textoinput::placeholder {
     color: rgb(156, 163, 175);
   }
 
-  button {
-    background-color: black;
+  .boton {
+    background-color: #03507C;
     color: white;
     font-weight: 600;
     padding: 0.75rem 1rem;
@@ -57,16 +57,16 @@
     width: 120px;
   }
 
-  button:hover {
-    background-color: rgb(31, 41, 55);
+  .boton:hover {
+    background-color: #2F89B6;
   }
 
-  button:disabled {
+  .boton:disabled {
     opacity: 0.7;
     cursor: not-allowed;
   }
 
-  imput {
+  .textoimput {
     border: white;
     border-width: 4px;
     border-style: solid;

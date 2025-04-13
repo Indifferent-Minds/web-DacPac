@@ -13,8 +13,8 @@ const Newsletter = () => {
                         <form id="waitlistForm" className="space-y-4">
                             <div className="form-group">
                                 <input id="email" name="email" type="email" placeholder="Introduce tu correo electrónico" required
-                                    aria-describedby="email-error" />
-                                <button type="submit" id="submitButton">Unirse</button>
+                                    aria-describedby="email-error" className='textoinput' />
+                                <button type="submit" id="submitButton" className='boton'>Unirse</button>
                                 
                             </div>
                             <p className='aviso'>AVISO: La newsletter no funciona en estos momentos. Sentimos las molestias</p>
