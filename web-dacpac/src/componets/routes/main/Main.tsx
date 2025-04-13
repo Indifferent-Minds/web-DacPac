@@ -5,7 +5,7 @@ import Form from '../../form/Form'
 import GoogleMaps from '../../google_maps/GoogleMaps';
 import Team from '../../team/Team'
 import Installations from '../../installations/Installations'
-import Newsletter from '../../newsletter/newsletter'
+import Newsletter from '../../newsletter/Newsletter'
 import './Main.css';
 import { useEffect } from 'react';
 
