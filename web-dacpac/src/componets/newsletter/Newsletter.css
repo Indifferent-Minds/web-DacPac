@@ -1,77 +1,87 @@
 .newsletterdiv {
-    position: 'fixed';
-    left: '20px';
-    bottom: '300px';
-    z-Index: 9999;
+  position: 'fixed';
+  left: '20px';
+  bottom: '300px';
+  z-Index: 9999;
 }
 
 .acepto {
-    font-size: 15px;
-    margin-top: -30px;
+  font-size: 15px;
+  margin-top: -30px;
 }
 
 .aviso {
-    font-size: 20px; 
-} 
+  font-size: 20px;
+}
+
+.divtexto {
+  display: none;
+}
 
 .form-container {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
+  width: 100%;
+  margin-bottom: 2rem;
 
-  .form-group {
-    display: flex;
-    overflow: hidden;
-    border-radius: 0.75rem;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 0.25rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-  }
+}
 
-  .form-group:focus-within {
-    border: 2px solid #3b82f6;
-  }
+.form-group {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-  .textoinput {
-    width: 100%;
-    border: 0;
-    background-color: transparent;
-    color: white;
-    padding: 0.75rem;
-    outline: none;
-  }
+.form-group:focus-within {
+  border: 2px solid #3b82f6;
+}
 
-  .textoinput::placeholder {
-    color: rgb(156, 163, 175);
-  }
+.textoinput {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  color: white;
+  padding: 0.75rem;
+  outline: none;
+}
 
-  .boton {
-    background-color: #03507C;
-    color: white;
-    font-weight: 600;
-    padding: 0.75rem 1rem;
-    border-radius: 0.75rem;
-    border: none;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    width: 120px;
-  }
+.textoinput::placeholder {
+  color: rgb(156, 163, 175);
+}
 
-  .boton:hover {
-    background-color: #2F89B6;
-  }
+.boton {
+  background-color: #03507C;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  width: 120px;
+}
 
-  .boton:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
+.boton:hover {
+  background-color: #2F89B6;
+}
 
-  .textoimput {
-    border: white;
-    border-width: 4px;
-    border-style: solid;
-  }
+.boton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
 
-  .titulo {
-    margin-top: 50px;
-  }
+.textoimput {
+  border: white;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.titulo {
+  margin-top: 50px;
+}
+
+.iframegoogle {
+  height: 500px;
+  width: 650px;
+}

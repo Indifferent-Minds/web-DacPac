@@ -22,6 +22,7 @@ const Newsletter = () => {
                         </form>
                     </div>
                 </div>
+                <div><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdU9meNlIm-Hd8kSGmtB97XB5VE0DP1qrqm2ajZXyN0xkYUwQ/viewform" className='iframegoogle'></iframe></div>
 
             </div>
         </center>
