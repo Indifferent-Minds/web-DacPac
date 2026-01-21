@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "¿En qué fechas y lugar se desarrollará el campamento?",
-    answer: <>En el albergue El Molino, en Huérmeces del Cerro, Guadalajara. Desde el día 14 de Julio hasta el día 25.</>
+    answer: <>En el albergue La Madriguera de Akela, en Fresno de Cantespino, Segovia. Desde el día 14 de Julio hasta el día 25.</>
   },
   {
     question: "¿Qué precio tiene el campamento? ¿Qué incluye?",
