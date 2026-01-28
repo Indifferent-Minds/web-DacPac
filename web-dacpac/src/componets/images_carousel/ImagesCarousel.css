@@ -1,31 +1,10 @@
 .images-container {
     background-color: var(--bg-color);
-    display: flex;
-    justify-content: center;
 }
 
-/* CONTENEDOR PRINCIPAL */
 .carousel {
-    max-width: 720px;       
-    width: 100%;
-    border-radius: 0.75rem;
+    max-width: 960px;
+    width: calc(100vw - 4rem);
+    border-radius: 0.5rem;
     overflow: hidden;
-}
-
-/* IMÁGENES */
-.carousel img {
-    width: 100%;
-    height: 420px;          
-    object-fit: cover;
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .carousel {
-        max-width: 100%;
-    }
-
-    .carousel img {
-        height: 260px;
-    }
 }
