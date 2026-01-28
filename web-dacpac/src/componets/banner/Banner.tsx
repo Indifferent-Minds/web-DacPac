@@ -1,16 +1,16 @@
 import './Banner.css'
 
-interface BannerProp {
+/*interface BannerProp {
     title?: string;
     subTitles?: string;
     extraText?: string;
-}
+}*/
 
-export default function Banner({title, subTitles, extraText}: BannerProp) {
+export default function Banner(/*{title, subTitles, extraText}: BannerProp*/) {
     return <section className='banner'>
         <div className="bg"></div>
-        <h1>{title ?? 'Campamento Dac-Pac'}</h1>
-        <h2>{subTitles ?? 'Del 14 al 25 de julio'}</h2>
-        <h3>{extraText ?? '¡Vente, te esperamos!'}</h3>
+        <h1>Campamento Dac-Pac</h1>
+        <h2>Del 19 al 31 de julio</h2>
+        <h3 className='color-white'>¡Vente, te esperamos!</h3>
     </section>
 }
