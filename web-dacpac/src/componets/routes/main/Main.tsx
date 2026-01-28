@@ -5,7 +5,6 @@ import Form from '../../form/Form'
 import GoogleMaps from '../../google_maps/GoogleMaps';
 import Team from '../../team/Team'
 import Installations from '../../installations/Installations'
-import Newsletter from '../../newsletter/Newsletter'
 import './Main.css';
 import { useEffect } from 'react';
 
@@ -32,20 +31,19 @@ const past_camps_images = [
 ];
 
 const facilities_images = [
-  'instalaciones_1.jpg',
-  'instalaciones_2.jpg',
-  'instalaciones_3.jpg',
-  'instalaciones_4.jpg',
-  'instalaciones_5.png',
-  'instalaciones_6.jpg',
-  'instalaciones_7.jpg',
-  'instalaciones_8.jpg',
-  'instalaciones_9.jpg',
-  'instalaciones_10.jpg',
-  'instalaciones_11.jpg',
-  'instalaciones_12.jpg',
-  'instalaciones_13.jpg',
-  'instalaciones_14.jpg',
+  'Exterior1.jpg',
+  'Exterior2.jpg',
+  'Exterior3.jpg',
+  'Exterior4.jpg',
+  'Exterior_5.jpg',
+  'Exterior_6.jpg',
+  'Comedor.jpg',
+  'Sala_multidisciplinar.jpg',
+  'Habitaciones_1.jpg',
+  'Habitaciones2.jpg',
+  'Habitaciones_3.jpg',
+  'Duchas.jpg',
+  'Baño1.jpg',
 ];
 
 const faqs = [
@@ -59,7 +57,7 @@ const faqs = [
   },
   {
     question: "¿Qué precio tiene el campamento? ¿Qué incluye?",
-    answer: <>El campamento tiene un precio de 1.350€ IVA incluido, incluye alojamiento y pensión completa, durante los 12 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
+    answer: <>El campamento tiene un precio de 1.350€ IVA incluido, incluye alojamiento y pensión completa, durante los 13 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
   },
   {
     question: "¿Qué tipo de actividades se llevan a cabo?",
@@ -67,7 +65,7 @@ const faqs = [
   },
   {
     question: "¿Cuántos participantes tiene el campamento?",
-    answer: <>El campamento tendrá un aforo máximo de 60 participantes, de diferentes grupos de edades.</>
+    answer: <>El campamento tendrá un aforo máximo de 70 participantes, de diferentes grupos de edades.</>
   },
   {
     question: "¿Durante el campamento la familia podrá ponerse en contacto con el asistente?",
@@ -98,7 +96,6 @@ export default function Main() {
       <Installations component_id='images' title='Instalaciones' subtitle='¡Mira el albergue!' images={facilities_images} />
       <Team />
       <Installations title='Otras ediciones' subtitle='¡Mira campamentos pasados!' images={past_camps_images} />
-      <Newsletter />
     </div>
   </main>
 }

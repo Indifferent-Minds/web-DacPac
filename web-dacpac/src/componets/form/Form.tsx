@@ -27,7 +27,6 @@ const Form = ({title, subTitle, buttonText}: FromProp) => {
                         {buttonText ?? '📝 Ir al formulario'}
                     </button>
                 </div>
-                
             </div>
         </center>
     );

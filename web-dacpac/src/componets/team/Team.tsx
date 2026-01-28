@@ -1,7 +1,7 @@
 import './Team.css';
 
 const base = import.meta.env.VITE_BASE;
-const image = 'image_04.jpg';
+const image = 'imagen_equipo.jpeg';
 
 const Team = () => {
   return (

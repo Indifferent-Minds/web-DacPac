@@ -1,4 +1,3 @@
-import Banner from '../../banner/Banner';
 import Paragraph from '../../paragraph/Paragraph';
 import Faq from '../../faq/Faq';
 import Form from '../../form/Form'
@@ -63,7 +62,6 @@ export default function Main() {
 
   return <main className='pb-4'>
     <div className="d-flex flex-column justify-content-center align-items-center">
-      <Banner title='Fin de semana Dac-Pac' subTitles='Del 25 al 27 de abril' extraText='Save the date!'/>
       <Paragraph title='¿Qué haremos en el fin de semana?' subTitle='Un fin de semana de retos y pasar tiempo entre iguales' paragraphText='Buenas convesaciones, scape-rooms, juegos de mesa y muchas risas'/>
       <Form subTitle='¡Ven a al mejor evento del año!' />
       <Faq faqs={faqs} />
@@ -74,3 +72,4 @@ export default function Main() {
     </div>
   </main>
 }
+
