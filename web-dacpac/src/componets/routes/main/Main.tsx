@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: "¿En qué fechas y lugar se desarrollará el campamento?",
-    answer: <>En el albergue La Madriguera de Akela, en Riaza, Segovia. Desde el día 19 de Julio hasta el día 31.</>
+    answer: <>En el albergue La Madriguera de Akela, en Riaza, Segovia. Desde el día 20 de Julio hasta el día 31.</>
   },
   {
     question: "¿Qué precio tiene el campamento? ¿Qué incluye?",

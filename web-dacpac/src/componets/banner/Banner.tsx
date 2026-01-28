@@ -10,7 +10,7 @@ export default function Banner(/*{title, subTitles, extraText}: BannerProp*/) {
     return <section className='banner'>
         <div className="bg"></div>
         <h1>Campamento Dac-Pac</h1>
-        <h2>Del 19 al 31 de julio</h2>
+        <h2>Del 20 al 31 de julio</h2>
         <h3 className='color-white'>¡Vente, te esperamos!</h3>
     </section>
 }
