@@ -22,7 +22,7 @@ const Form = ({title, subTitle, buttonText}: FromProp) => {
                 <div className="divtexto container-size">
                     <button 
                         className="form-button" 
-                        onClick={() => window.open("https://indifferentminds.org/colabora/", "_blank")}
+                        onClick={() => window.open("https://forms.gle/qakmR8CwznU3XK956", "_blank")}
                     >
                         {buttonText ?? '📝 Newsletter'}
                     </button>
