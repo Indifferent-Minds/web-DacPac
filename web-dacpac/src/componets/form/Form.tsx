@@ -14,17 +14,17 @@ const Form = ({title, subTitle, buttonText}: FromProp) => {
         <center className="slide-in-right" id='form'>
             <div className="form-container">
                 <div className="titulo">
-                    <h3 className="titulo2">{title ?? 'Formulario de inscripción'}</h3>
-                    <h1 className="titulo1">{subTitle ?? '¡Ven al campamento!'}</h1>
+                    <h3 className="titulo2">{title ?? 'Abierto tramo 2 inscripciones'}</h3>
+                    <h1 className="titulo1">{subTitle ?? '¡Súmate a la newsletter para entrar en el tramo 2!'}</h1>
                 </div>
                 
                 <img src={base + 'soldout.png'} alt="soldout" className="soldout"/>
                 <div className="divtexto container-size">
                     <button 
                         className="form-button" 
-                        onClick={() => window.open("https://www.google.com/url?q=https://docs.google.com/forms/d/e/1FAIpQLScXfGhpmBUWiDtcb7teAbfsHBoMZG0wMkV_y-tfWxUNdKYWRQ/viewform?usp%3Ddialog&sa=D&source=editors&ust=1744390865738314&usg=AOvVaw0FeqVzMYU-c45ANnTk-fqn", "_blank")}
+                        onClick={() => window.open("https://indifferentminds.org/colabora/", "_blank")}
                     >
-                        {buttonText ?? '📝 Ir al formulario'}
+                        {buttonText ?? '📝 Newsletter'}
                     </button>
                 </div>
                 
