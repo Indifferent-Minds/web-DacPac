@@ -9,8 +9,8 @@ import './Banner.css'
 export default function Banner(/*{title, subTitles, extraText}: BannerProp*/) {
     return <section className='banner'>
         <div className="bg"></div>
-        <h1>{title ?? 'Campamento Dac-Pac'}</h1>
-        <h2>{subTitles ?? 'Del 20 al 31 de julio'}</h2>
-        <h3 className='color-white'>{extraText ?? '¡Vente, te esperamos!'}</h3>
+        <h1>{'Campamento Dac-Pac'}</h1>
+        <h2>{'Del 20 al 31 de julio'}</h2>
+        <h3 className='color-white'>{'¡Vente, te esperamos!'}</h3>
     </section>
 }
