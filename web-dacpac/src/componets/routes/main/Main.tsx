@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     question: "¿Qué precio tiene el campamento? ¿Qué incluye?",
-    answer: <>El campamento tiene un precio de 1.290€ IVA incluido, incluye alojamiento y pensión completa, durante los 12 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
+    answer: <>El campamento tiene un precio de 1.350€ IVA incluido, incluye alojamiento y pensión completa, durante los 12 días de campamento en los cuáles también incluirá gran variedad de actividades.</>
   },
   {
     question: "¿Qué tipo de actividades se llevan a cabo?",
