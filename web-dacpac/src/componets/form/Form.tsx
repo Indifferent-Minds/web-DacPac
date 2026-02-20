@@ -1,5 +1,5 @@
 import './Form.css'
-// const base = import.meta.env.VITE_BASE; 
+const base = import.meta.env.VITE_BASE; 
 
 
 interface FromProp {
@@ -18,11 +18,11 @@ const Form = ({title, subTitle, buttonText}: FromProp) => {
                     <h1 className="titulo1">{subTitle ?? '¡Ven al campamento!'}</h1>
                 </div>
                 
-                {/* <img src={base + 'soldout.png'} alt="soldout" className="soldout"/> */}
+                <img src={base + 'soldout.png'} alt="soldout" className="soldout"/>
                 <div className="divtexto container-size">
                     <button 
                         className="form-button" 
-                        onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLSfOSRqZ9-HPEsNvhX1EFNwjP4tKZDs_9RosJo9JJYFMDLWBhA/viewform?usp=publish-editor", "_blank")}
+                        onClick={() => window.open("https://forms.gle/G9aguCKoq9cREe3J7", "_blank")}
                     >
                         {buttonText ?? '📝 Ir al formulario'}
                     </button>
